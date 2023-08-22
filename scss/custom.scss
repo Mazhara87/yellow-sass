@@ -1,0 +1,160 @@
+@import 'bootstrap';
+
+
+.header {
+    background-image: url(../images/bkg-hero-header.jpg);
+    padding: 14rem;
+    margin-top: -60px;
+
+    .btn {
+        border-radius: unset;
+    }
+    
+}
+span.dot {
+    color: yellow;
+    margin-bottom: 0px;
+}
+
+.test {
+    background-image: url(../images/bkg-testimonial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+
+    .carousel-caption {
+        position: relative;
+        left:0;
+        right:0;
+        margin-top: 2rem;
+
+        p {
+            width:40%;
+            margin:auto;
+            background-color: #6A4D8A;
+            padding:2rem;
+        }
+        h5 {
+            padding-top: 2rem;;
+        }
+    }
+
+    .carousel-indicators {
+        position: relative;
+
+        button {
+            height:15px;
+            width: 15px;
+            border-radius: 50%;
+        }
+
+    }
+
+}
+
+
+.design {
+    i {
+        color: salmon;
+        background-color: transparent;
+        text-align: center;
+    }
+    h3 {
+        color: salmon;
+    }
+}
+
+.development {
+    i {
+        color: #FFBD67;
+    }
+    h3 {
+        color: #FFBD67;
+    }
+}
+
+.seo {
+    i {
+        color: #6A4D8A;
+    }
+    h3 {
+        color: #6A4D8A;
+    }
+}
+
+
+
+.News {
+    .btn {
+        border-radius: 2px; 
+    }
+    i {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+
+    .btn {
+        border-radius: 2px;
+    }
+    i {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+}
+.yellow {
+    background-image: url(../images/bkg-counter.jpg);
+    h2{
+        font-size: 60px;
+        font-weight:bold;
+    }
+    p{
+        font-size: 20px;
+        font-weight:bold;
+    }
+    .projets{
+        border-right: 1px solid white;
+    }
+    .clients{
+        border-right: 1px solid white;
+    }
+}
+
+input, textarea {
+    width: 100%;
+
+}
+
+form .btn {
+    float: right;
+    width: 150px;
+}
+
+.contact{
+    padding-top: 30px;
+    h2{
+        font-weight: bold;
+    }
+}
+
+.add {
+    h5{
+    color: #FFBD67;
+}
+}
+.adde {
+   
+    border-left: 1px solid grey;
+
+}
+footer{
+    .nav-item{
+        color:azure
+    }
+}
